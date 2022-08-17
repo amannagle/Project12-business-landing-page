@@ -5,7 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    font-size: 16px;
+}
 body {
     background-color: #636c79;
     font-family: 'Raleway';
@@ -23,14 +25,15 @@ section.main {
 }
 
 nav {
+    width: 100%;
     display: flex;
-    padding: 20px 40px;
+    padding: 1.25em 2.5em;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 8em;
 }
 
 nav>img {
-    margin-top: 20px;
+    margin-top: 1.25em;
     -webkit-filter: grayscale(1) invert(1);
     filter: grayscale(1) invert(1);
 }
@@ -45,7 +48,7 @@ nav button {
     background-color: transparent;
     width: 160px;
     height: 50px;
-    font-size: 18px;
+    font-size: 1rem;
     color: #ffffff;
     border: 1px solid #ffffff;
 }
@@ -60,46 +63,46 @@ ul.nav-list {
 
 section.main {
     display: flex;
-    margin: 0 100px;
-    gap: 150px;
-    padding-bottom: 150px;
+    margin: 0 8em;
+    gap: 10em;
+    padding-bottom: 10em;
 }
 
 section.main img {
-    height: 600px;
-    width: auto;
-    margin-left: 100px;
+    
+    width: 90%;
+    margin-left: 8em;
 }
 
 div.right {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 8em;
 }
 
 div.right>h2 {
     white-space: pre-line;
-    font-size: 60px;
+    font-size: 3.75rem;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 0.5em;
 }
 
 div.right>p {
     white-space: pre-line;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
     color: #c4c8cc;
     line-height: 2;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 div.email {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 5px 10px;
+    gap: 0.8em;
+    padding: 0.25em 0.8em;
     background-color: #fff;
     color: #000;
-    font-size: 18px;
+    font-size: 1rem;
     height: 60px;
 }
 
@@ -108,7 +111,7 @@ div.email>span {
 }
 
 div.email>i {
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 div.email>button {
@@ -118,7 +121,7 @@ div.email>button {
     background-color: #8bb7a2;
     outline: none;
     border: none;
-    font-size: 18px;
+    font-size: 1rem;
     color: #ffffff;
 }
 
@@ -129,11 +132,11 @@ section.stats {
 }
 
 section.stats>h2 {
-    margin-top: 100px;
+    margin-top: 2.5em;
     align-self: center;
     white-space: pre-line;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 div.data {
@@ -142,28 +145,28 @@ div.data {
 }
 
 div.stat {
-    margin-top: 50px;
+    margin-top: 3em;
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    margin-bottom: 50px;
+    gap: 0.25em;
+    margin-bottom: 3em;
 }
 
 span.header {
-    font-size: 35px;
+    font-size: 2.25rem;
     font-weight: 500;
 }
 
 span.answer {
     color: #ababab;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 section.stats img {
     align-self: center;
-    width: 1350px;
+    width: 90%;
 }
 
 section.description {
@@ -174,17 +177,17 @@ section.description {
 }
 
 section.description>h2 {
-    margin-top: 100px;
-    font-size: 50px;
+    margin-top: 2em;
+    font-size: 3rem;
     white-space: pre-line;
     text-align: center;
 }
 
 div.feature {
     display: flex;
-    margin-top: 100px;
-    gap: 100px;
-    padding-bottom: 100px;
+    margin-top: 8em;
+    gap: 8em;
+    padding-bottom: 8em;
 }
 
 div.left-section,
@@ -197,7 +200,7 @@ div.right-section {
 div.left-section>h3,
 div.right-section>h3 {
     white-space: pre-line;
-    font-size: 40px;
+    font-size: 2.5rem;
     line-height: 1.2;
 }
 
@@ -213,7 +216,7 @@ div.right-section p {
 
 div.left-section img,
 div.right-section img {
-    width: 600px;
+    width: 100%;
 }
 
 button.feature-btn {
@@ -221,14 +224,14 @@ button.feature-btn {
     height: 60px;
     background-color: #8bb7a2;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 1.25rem;
     outline: none;
     border: none;
 }
 
 div.header {
     display: flex;
-    margin: 0 130px;
+    margin: 0 8em;
     align-items: center;
     gap: 30%;
 }
@@ -242,19 +245,19 @@ section.team-desc {
 p.mission {
     white-space: pre-line;
     color: #6a6c6e;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 1.5;
     font-weight: 500;
 }
 
 div.header>h2 {
-    font-size: 40px;
-    margin-bottom: 50px;
+    font-size: 2.5rem;
+    margin-bottom: 1.25em;
 }
 
 div.images {
     display: flex;
-    padding: 0 130px;
+    padding: 0 8em;
     gap: 80px;
 }
 
@@ -264,31 +267,31 @@ div.team-member {
 }
 
 div.team-member span {
-    margin-top: 30px;
-    font-size: 22px;
+    margin-top: 1.5em;
+    font-size: 1.4rem;
     font-weight: 800;
 }
 
 div.team-member p {
-    margin-top: 10px;
+    margin-top: 0.625em;
     color: #838486;
     font-weight: 500;
 }
 
 button.bottom-btn {
     display: block;
-    margin: 50px auto;
+    margin: 2.5rem auto;
     width: 180px;
     height: 60px;
     background-color: #8bb7a2;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 1.25rem;
     outline: none;
     border: none;
 }
 
 footer {
-    padding: 50px 100px;
+    padding: 3em 6.25em;
     display: flex;
     flex-direction: column;
     background-color: #10181d;
@@ -299,22 +302,24 @@ div.footer-head {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 75px;
+    margin-bottom: 4.75em;
     position: relative;
 }
-
+div.team-member img{
+    width: 100%;
+}
  div.footer-head::after{
     position: absolute;
     content: '';
     height: 2px;
-    width: 86vw;
+    width: 100%;
     background-color: #242c31;
     bottom: -36px;
     right: 0px;
 } 
 div.icons{
     display: flex;
-    gap: 15px;
+    gap: 1em;
 }
 footer ul {
     list-style-type: none;
@@ -330,14 +335,63 @@ div.footer-lists {
 ul.footer-list{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625em;
 }
 
 ul.footer-list>li{
     color: #979a9d;
 }
 ul.footer-list>li.list-header{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     color: #ffffff;
 }
+
+
+@media(max-width:500px)
+{
+    html{
+        font-size: 10px;
+    }
+
+    section.main{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 6em;
+        gap: 2em;
+        padding-bottom: 10em;
+    }
+
+    div.left{
+        padding-left: 2em;
+    }
+
+    section.main img{
+        margin-left: 0;
+    }
+
+    div.email {
+        display: flex;
+        align-items: center;
+        gap: 0.8em;
+        padding: 0.25em 0.8em;
+        background-color: #fff;
+        color: #000;
+        font-size: 1.5rem;
+        height: 45px;
+    }
+
+    div.email>button{
+        width: 88px;
+        font-size: 1.25rem;
+        height: 100%;
+    }
+
+    ul.nav-list{
+        display: none;
+    }
+
+    nav button{
+        display: none;
+    }
+    }
