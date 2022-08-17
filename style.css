@@ -266,6 +266,25 @@ div.team-member {
     flex-direction: column;
 }
 
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 3.7em;
+    right: 1em;
+    height: 20px;
+    width: 30px;
+    cursor: pointer;
+}
+
+span.bar {
+    width: 100%;
+    height: 3px;
+    background-color: #ffffff;
+    transition: background-color 300ms ease-in-out;
+}
+
 div.team-member span {
     margin-top: 1.5em;
     font-size: 1.4rem;
@@ -381,6 +400,9 @@ ul.footer-list>li.list-header{
         height: 45px;
     }
 
+    div.hamburger{
+        display: flex;
+    }
     div.email>button{
         width: 88px;
         font-size: 1.25rem;
@@ -393,5 +415,69 @@ ul.footer-list>li.list-header{
 
     nav button{
         display: none;
+    }
+
+    div.feature{
+        margin-top: 2em;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    section.description{
+        gap: 10em;
+    }
+    div.feature img{
+        width: 100%;
+    }
+
+    div.feature:nth-child(3)
+    {
+       flex-direction: column;
+    }
+
+    div.feature p.info{
+        margin-top: 1em;
+        white-space: normal;
+        font-size: 1.5rem;
+    }
+    div.feature button{
+        margin: 0 auto;
+        font-size: 2rem;
+    }
+
+    div.header{
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+
+    div.images{
+        flex-direction: column;
+    }
+
+    button.bottom-btn{
+        font-size: 2rem;
+    }
+
+    footer{
+        padding: 2em;
+    }
+    div.footer-head{
+        gap: 5em;
+        flex-wrap: wrap;
+    }
+
+    div.footer-lists{
+        flex-wrap: wrap;
+        gap: 7em;
+    }
+
+    div.left-section>h3, div.right-section>h3 {
+        white-space: normal;
+        font-size: 2.5rem;
+        line-height: 1.2;
+    }
+    ul.footer-list{
+        flex-basis: 30%;
     }
     }
